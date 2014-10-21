@@ -1,0 +1,35 @@
+{
+  "name": "fidem-signer",
+  "version": "0.0.0",
+  "description": "Node module to sign and verify Fidem HTTP request.",
+  "keywords": [
+    "fidem"
+  ],
+  "author": "Sébastien Guimont <info@sebastienguimont.com> (http://sebastienguimont.com/)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sguimont/fidem-signer.git"
+  },
+  "bugs": {
+    "email": "info@sebastienguimont.com",
+    "url": "https://github.com/sguimont/fidem-signer/issues"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.6",
+    "lodash": "^2.4.1",
+    "lru-cache": "^2.5.0",
+    "request": "^2.45.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^1.21.5",
+    "sinon": "^1.10.2",
+    "sinon-chai": "^2.5.0"
+  },
+  "licence": "MIT"
+}
