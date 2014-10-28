@@ -3,7 +3,11 @@ var signer = require('./index');
 
 describe('#sign', function () {
   it('should sign a request', function () {
-    var request = {};
+    var request = {
+      headers: {
+        date: "October 26, 2014 12:00:00"
+      }
+    };
 
     var request = signer.sign(request, {
       accessKeyId: 'myAccessKeyId',
@@ -13,7 +17,7 @@ describe('#sign', function () {
     expect(request.headers).to.have.property('X-Fidem-Date');
     expect(request.headers).to.have.property('Authorization');
 
-    expect(request.headers.Authorization).to.match(/FIDEM4-HMAC-SHA256 Credential=myAccessKeyId\/fidem, SignedHeaders=x-fidem-date, Signature=[0-9a-f]{64}/);
+    expect(request.headers.Authorization).to.match(/FIDEM4-HMAC-SHA256 Credential=20141026\/myAccessKeyId\/fidem, SignedHeaders=date;x-fidem-date, Signature=[0-9a-f]{64}/);
 
     var result = signer.verify(request, {
       accessKeyId: 'myAccessKeyId',
