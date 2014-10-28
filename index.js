@@ -2,4 +2,4 @@
  * Expose module.
  */
 
-exports = {};
+module.exports = require('./lib/signer');
