@@ -6,14 +6,14 @@
     "fidem",
     "signer"
   ],
-  "author": "Sébastien Guimont <info@sebastienguimont.com> (http://sebastienguimont.com/)",
+  "author": "Sébastien Guimont <sebastieng@sympatico.ca> (http://sebastienguimont.com/)",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/sguimont/fidem-signer.git"
   },
   "bugs": {
-    "email": "info@sebastienguimont.com",
+    "email": "sebastieng@sympatico.ca",
     "url": "https://github.com/sguimont/fidem-signer/issues"
   },
   "scripts": {
