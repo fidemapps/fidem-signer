@@ -10,11 +10,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sguimont/fidem-signer.git"
+    "url": "git://github.com/fidemapps/fidem-signer.git"
   },
   "bugs": {
     "email": "sebastieng@sympatico.ca",
-    "url": "https://github.com/sguimont/fidem-signer/issues"
+    "url": "https://github.com/fidemapps/fidem-signer/issues"
   },
   "scripts": {
     "test": "mocha"
