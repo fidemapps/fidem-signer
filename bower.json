@@ -1,7 +1,7 @@
 {
   "name": "fidem-signer",
   "main": "fidem-signer.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/fidemapps/fidem-signer/",
   "authors": [
     "Sébastien Guimont",
@@ -22,8 +22,6 @@
     "TODO.md",
     "test.js"
   ],
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
