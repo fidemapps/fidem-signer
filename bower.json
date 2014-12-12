@@ -1,0 +1,29 @@
+{
+  "name": "fidem-signer",
+  "main": "fidem-signer.js",
+  "version": "0.1.1",
+  "homepage": "https://github.com/fidemapps/fidem-signer/",
+  "authors": [
+    "Sébastien Guimont",
+    "Greg Bergé"
+  ],
+  "description": "Javascript library to sign and verify Fidem HTTP request.",
+  "keywords": [
+    "signer",
+    "fidem"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "node_modules",
+    "bower_components",
+    "Gruntfile.js",
+    "TODO.md",
+    "test.js"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
