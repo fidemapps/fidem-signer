@@ -1,6 +1,6 @@
 {
   "name": "fidem-signer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node module to sign and verify Fidem HTTP request.",
   "keywords": [
     "fidem",
